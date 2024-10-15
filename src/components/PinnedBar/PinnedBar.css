@@ -1,0 +1,40 @@
+.pinned-bar {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    z-index: 1050;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pinned-bar.hidden {
+    transform: translateY(-100%);
+    /* Sembunyikan bar ke atas */
+}
+
+.pinned-bar.visible {
+    transform: translateY(0);
+    /* Tampilkan bar */
+}
+
+.social-icons a {
+    margin-left: 15px;
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.icon.instagram {
+    color: #E4405F;
+}
+
+.icon.facebook {
+    color: #3B5998;
+}
+
+.icon.whatsapp {
+    color: #25D366;
+}

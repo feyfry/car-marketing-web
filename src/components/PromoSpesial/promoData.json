@@ -1,0 +1,83 @@
+{
+    "promos": [{
+            "title": "Daihatsu All New Ayla",
+            "description": "City car kompak dengan efisiensi bahan bakar tinggi",
+            "price": "Mulai dari Rp 137.800.000",
+            "specs": "5 Seat | 998 cc",
+            "image": "/assets/img/promo/ayla-by-kedai-website.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Ayla"
+        },
+        {
+            "title": "Daihatsu All New Sirion",
+            "description": "Hatchback sporty dengan performa dinamis",
+            "price": "Mulai dari Rp 230.350.000",
+            "specs": "5 Seat | 1329 cc",
+            "image": "/assets/img/promo/sirion-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Sirion"
+        },
+        {
+            "title": "Daihatsu All New Xenia",
+            "description": "MPV keluarga dengan kenyamanan optimal",
+            "price": "Mulai dari Rp 224.450.000",
+            "specs": "- Seat | - cc",
+            "image": "/assets/img/promo/xenia-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Xenia"
+        },
+        {
+            "title": "Daihatsu New Terios",
+            "description": "SUV tangguh untuk petualangan keluarga",
+            "price": "Mulai dari Rp 244.050.000",
+            "specs": "7 Seat | 1496 cc",
+            "image": "/assets/img/promo/terios-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Terios"
+        },
+        {
+            "title": "Daihatsu Rocky",
+            "description": "Crossover kompak dengan gaya modern",
+            "price": "Mulai dari Rp 210.750.000",
+            "specs": "5 Seat | 998 cc",
+            "image": "/assets/img/promo/rocky-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Rocky"
+        },
+        {
+            "title": "Daihatsu Granmax Pick Up",
+            "description": "Pick-up andal untuk bisnis Anda",
+            "price": "Mulai dari Rp 161.450.000",
+            "specs": "2 Seat | 1298 cc",
+            "image": "/assets/img/promo/gran-max-pick-up-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Granmax%20Pick%20Up"
+        },
+        {
+            "title": "New Astra | Daihatsu Sigra",
+            "description": "MPV kompak dengan fitur lengkap untuk keluarga",
+            "price": "Mulai dari Rp 139.200.000",
+            "specs": "7 Seat | 998 cc",
+            "image": "/assets/img/promo/sigra-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Sigra"
+        },
+        {
+            "title": "Daihatsu Granmax Mini Bus",
+            "description": "Minibus serbaguna untuk bisnis dan keluarga",
+            "price": "Mulai dari Rp 205.250.000",
+            "specs": "9 Seat | 1298 cc",
+            "image": "/assets/img/promo/gran-max-minibus-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Granmax%20Mini%20Bus"
+        },
+        {
+            "title": "Daihatsu New Luxio",
+            "description": "MPV premium dengan kenyamanan ekstra",
+            "price": "Mulai dari Rp 237.250.000",
+            "specs": "8 Seat | 1495 cc",
+            "image": "/assets/img/promo/luxio-by-kedai-website-768x512.webp",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Luxio"
+        },
+        {
+            "title": "Daihatsu Granmax Blindvan",
+            "description": "MPV premium dengan kenyamanan ekstra",
+            "price": "Mulai dari Rp 179.100.000",
+            "specs": "2 Seat | 1298 cc",
+            "image": "/assets/img/promo/2.png",
+            "link": "https://api.whatsapp.com/send/?phone=6288210047775&text=Saya%20tertarik%20dengan%20Daihatsu%20Granmax%20Blindvan"
+        }
+    ]
+}

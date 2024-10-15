@@ -1,0 +1,75 @@
+.carousel-item img {
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+.beranda-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.carousel-caption {
+    position: relative;
+    /* Agar dapat menggunakan z-index */
+    z-index: 2;
+    /* Agar caption berada di atas overlay */
+    display: flex;
+    /* Gunakan flexbox */
+    flex-direction: column;
+    /* Atur arah elemen menjadi kolom */
+    justify-content: center;
+    /* Pusatkan secara vertikal */
+    align-items: center;
+    /* Pusatkan secara horizontal */
+    height: 100%;
+    /* Ambil tinggi penuh dari carousel item */
+    text-align: center;
+    /* Pusatkan teks */
+    padding: 0 15px;
+    /* Menambahkan padding untuk responsivitas */
+}
+
+.carousel-caption h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    color: #f8f9fa;
+}
+
+.carousel-caption button {
+    margin-top: 1rem;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Hitam dengan transparansi */
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h3 {
+        font-size: 1.3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.7rem;
+    }
+
+    .carousel-caption .btn {
+        /* Atur ukuran font tombol */
+        font-size: 0.8rem;
+        /* Atur padding tombol */
+        padding: 0.5rem 1rem;
+    }
+}

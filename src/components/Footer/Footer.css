@@ -1,0 +1,68 @@
+/* Footer.css */
+.custom-footer {
+    color: #ffffff;
+}
+
+.custom-footer h5 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.custom-footer p,
+.custom-footer ul li {
+    color: #cccccc;
+}
+
+.custom-footer a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.custom-footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.custom-footer .border-top {
+    border-color: #444444 !important;
+}
+
+.foo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.foo p {
+    margin-bottom: -25px;
+}
+
+/* New styles for social media icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .social-icons {
+        justify-content: center;
+    }
+}

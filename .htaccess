@@ -1,0 +1,51 @@
+# Mulai konfigurasi
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Aturan untuk mengalihkan ke HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Menghindari akses langsung ke file .htaccess
+    <Files .htaccess>
+        Require all denied
+    </Files>
+
+    # Mencegah akses ke file sensitif
+    <FilesMatch "\.(ini|log|sh|txt)$">
+        Order Deny,Allow
+        Deny from all
+    </FilesMatch>
+
+    # Menyembunyikan direktori listing
+    # Options -Indexes
+
+    # Menghindari serangan XSS
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Mencegah serangan clickjacking
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # Cache kontrol untuk file statis
+    <IfModule mod_expires.c>
+        ExpiresActive On
+        ExpiresDefault "access plus 1 month"
+        ExpiresByType image/jpg "access plus 1 year"
+        ExpiresByType image/jpeg "access plus 1 year"
+        ExpiresByType image/gif "access plus 1 year"
+        ExpiresByType image/png "access plus 1 year"
+        ExpiresByType text/css "access plus 1 month"
+        ExpiresByType application/pdf "access plus 1 month"
+        ExpiresByType application/javascript "access plus 1 month"
+    </IfModule>
+
+    # Mencegah serangan SQL Injection
+    RewriteCond %{QUERY_STRING} (union|select|insert|delete|drop|update|--|#) [NC]
+    RewriteRule ^.*$ - [F,L]
+
+</IfModule>
+
+# Penanganan kesalahan
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
